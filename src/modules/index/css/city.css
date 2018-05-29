@@ -1,0 +1,68 @@
+/*全局样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*显示地址栏*/
+.city-choice .city{
+  display: inline-block;
+  position: relative;
+  margin-right: 6px;
+  padding: 0 25px 0 3px;
+  height: 21px;
+  line-height: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*点击弹出的选择框*/
+.city-choice #addr-choice{
+  font-size:12px;
+  display:none;
+  position: absolute;
+  width: 435px;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.city-choice #title-wrap{
+ border-bottom: 2px solid #e4e4e4;
+  margin:5px;
+  line-height: 36px;
+  height: 40px;
+}
+.city-choice #title-wrap li span{
+  display: inline-block;
+  width:70px;
+  height: 16px;
+  line-height: 16px;
+  padding:5px 5px 28px 5px;
+}
+.city-choice #title-wrap li,#addr-wrap li{
+   font-size: 12px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.city-choice .addressactive{
+    border-bottom: 2px solid #e8000e;
+}
+/*s省市区的具体选择*/
+.city-choice #show-panel{
+  margin:4px auto;
+}
+.city-choice #addr-wrap{
+  margin-left:5px;
+}
+.city-choice #addr-wrap li{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    overflow:hidden;
+}
+.city-choice #addr-wrap li:hover{
+    background-color: #e8000e;
+    color:#ffffff;
+}

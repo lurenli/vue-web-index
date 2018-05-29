@@ -1,0 +1,336 @@
+
+.login_page .main_wrap {
+  background-color: #c40000;
+  /* background:url(../img/form/login_bg.jpg) center top no-repeat; */
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 500px !important;
+  margin-top: -500px!important;
+}
+
+.login_box {
+  position: absolute;
+  left: 700px;
+  top: 20px !important;
+  width: 328px;
+  background: #fff;
+  padding-left: 20px;
+}
+
+.login_top {
+  padding-top: 12px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Microsoft Yahei";
+}
+
+.login_top .reg {
+  float: right;
+  width: 80px;
+  height: 17px;
+  line-height: 17px;
+  display: inline-block;
+  font-size: 14px;
+  color: #c40000;
+  margin-top: 12px;
+}
+
+/*.number {*/
+/*width: 303px;*/
+/*height: 38px;*/
+/*border: 1px solid #C2BEB7;*/
+/*position: relative;*/
+/*}*/
+
+.number label {
+  width: 40px;
+  height: 38px;
+  display: inline-block;
+  background: #DFDDD8 url(../../images/form/log2.png) 13px 12px no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.number_text, .password_text {
+  position: absolute;
+  left: 60px;
+  height: 38px;
+  line-height: 38px;
+  top: 0;
+  color: #93908B;
+}
+
+.number input, .password input {
+  width: 258px;
+  height: 38px;
+  line-height: 38px;
+  vertical-align: middle;
+  padding-left: 45px;
+  border: none;
+}
+
+.password {
+  width: 303px;
+  height: 38px;
+  border: 1px solid #C2BEB7;
+  position: relative;
+  /*  margin-top:20px; */
+}
+
+.password label {
+  width: 40px;
+  height: 38px;
+  display: inline-block;
+  background: #DFDDD8 url(../../images/form/log3.png) 13px 12px no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.password_affirm {
+  width: 303px;
+  height: 38px;
+  border: 1px solid #C2BEB7;
+  position: relative;
+}
+
+.verification {
+  width: 103px;
+  height: 38px;
+  /* border:1px solid #C2BEB7; */
+  position: relative;
+  /* margin-top:15px; */
+  margin-left: -29px;
+}
+
+.verification label {
+  width: 40px;
+  height: 38px;
+  display: inline-block;
+  /* background:#DFDDD8 url(../images/form/log3.png) 13px 12px no-repeat; */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.yanzhen {
+  margin-left: 144px;
+  margin-top: -40px;
+}
+
+.yanzhen .hui {
+  color: #666;
+  height: 30px;
+  line-height: 30px;
+}
+
+.yanzhen .red {
+  color: #c40000;
+  height: 30px;
+  line-height: 30px;
+}
+
+.input_focus {
+  border: 1px solid #0087BB !important;
+}
+
+.input_focus label {
+  background-color: #72BEE3 !important;
+}
+
+.forget {
+  height: 34px;
+  overflow: hidden;
+  padding: 8px 20px 0 0;
+  width: 305px;
+  margin-top: -47px;
+}
+
+.forget a {
+  float: right;
+  color: #c40000;
+}
+
+.log_btn {
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+  background: #c40000;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  display: inline-block;
+  border: none;
+}
+
+.auto_log {
+  height: 66px;
+  line-height: 66px;
+  color: #666;
+  font-family: "Microsoft Yahei";
+}
+
+.auto_log input {
+  margin-right: 5px;
+  /*position: relative;*/
+  /*top: 2px;*/
+}
+
+.log_bom {
+  padding-bottom: 27px;
+}
+
+.log_bom a {
+  float: left;
+  padding-left: 32px;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  color: #93908B;
+}
+
+.log_bom .wb {
+  margin-top: 10px;
+  background: url(../../images/form/sina.png) no-repeat;
+}
+
+.log_bom .qq {
+  margin-top: 10px;
+  background: url(../../images/form/qq.png) no-repeat;
+  margin-left: 20px;
+}
+
+.log_bom .wx {
+  margin-top: 10px;
+  background: url(../../images/form/wx.png) no-repeat;
+  margin-left: 30px;
+}
+
+.con_red {
+  text-align: right;
+  padding-right: 47px;
+  margin-bottom: 15px;
+}
+
+.log_btnt {
+  margin: 0 auto;
+  width: 212px;
+  height: 40px;
+  background: #c40000;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  display: inline-block;
+  border: none;
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.reset_password input {
+  color: #999;
+  height: 38px;
+  padding-left: 10px;
+  line-height: 38px;
+  width: 200px;
+  margin-top: 20px;
+  border: #e5e5e5 1px solid;
+}
+
+.reset_password em {
+  width: 70px;
+  text-align: right;
+  color: #666;
+  font-size: 12px;
+}
+
+.reset_password2 input {
+  color: #999;
+  height: 38px;
+  padding-left: 10px;
+  line-height: 38px;
+  width: 80px;
+  margin-top: 20px;
+  border: #e5e5e5 1px solid;
+}
+
+.reset_password2 em {
+  width: 70px;
+  text-align: right;
+  color: #666;
+  font-size: 12px;
+}
+
+.reset_password2 button {
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.button_t a:hover {
+  color: #fff;
+  background: #F23131;
+}
+
+.log_btnz {
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+  background: #c40000;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  display: inline-block;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.ph_display {
+  height: 26px;
+  line-height: 26px;
+  color: red;
+  padding-left: 44px;
+}
+
+/*  登录按钮样式 */
+.shop_register {
+  border-radius: 4px;
+  display: block;
+  width: 305px;
+  height: 38px;
+  background: #f23131;
+  color: #fff;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.shop_register:hover {
+  background: #fa5151;
+  color: #fff;
+}
+
+.error_display {
+  color: red;
+  padding-left: 44px;
+}
+
+.nav_logo a img {
+  max-width: 259px;
+  max-height: 66px;
+}

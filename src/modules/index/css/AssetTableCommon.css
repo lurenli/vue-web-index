@@ -1,0 +1,28 @@
+/*显示列表*/
+table thead{
+  background: #e6e6e6;
+}
+table thead th{
+  width:200px;
+  text-align: center;
+  padding:11px 0;
+}
+table tbody td{
+  width:200px;
+  text-align: center;
+  padding:10px 0;
+}
+table tbody tr{
+  border-bottom:1px solid #f2f2f2;
+}
+.operate a{
+  color:#117ee1;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/*页码*/
+.page{
+  display: block;
+  float: right;
+  margin:54px 20px;
+}
